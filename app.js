@@ -56,7 +56,4 @@ const body = document.body;
 darkModeButton.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
 
-  if (darkModeButton === "clicked") {
-    darkModeButton.innerText = "Light Mode";
-  }
 });
